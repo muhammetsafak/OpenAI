@@ -1,0 +1,22 @@
+{
+    "name": "muhammetsafak/openai-client",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MuhammetSafak\\OpenAI\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammet ŞAFAK",
+            "email": "info@muhammetsafak.com.tr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
